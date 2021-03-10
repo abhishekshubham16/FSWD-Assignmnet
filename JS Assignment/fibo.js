@@ -1,4 +1,5 @@
-let num = 10
+const prompt = require('prompt-sync')();
+const num = parseInt(prompt('Enter the number of terms: '));
 let n1 = 0, n2 = 1, nextTerm;
 for (let i = 1; i <= num; i++) {
     console.log(n1);
