@@ -6,4 +6,5 @@ for(let i =0; i<=item.length-1;i++){
         sum = sum + element;
     });
 }
+
 console.log(sum);
