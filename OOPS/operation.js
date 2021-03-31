@@ -4,13 +4,9 @@ class Operation{
         this.amount= amount;
     }
 
-/*     get_Bal(){
-        console.log(`${this.acc_Name} is having balance of amount Rs. ${this.amount}`)
-    } */
-
 }
 
-let opr = new Operation('Abhishek', 7000)
+
 
 module.exports = Operation
 

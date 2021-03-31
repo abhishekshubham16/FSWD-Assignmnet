@@ -9,18 +9,23 @@ class Bank_Customer{
         this.address = address;
         this.operation= operation;
     }
+    get_Bal(){
+        console.log(`${this.operation.acc_Name} is having balance of amount Rs. ${this.operation.amount}`)
+    }
 }
 
-/* class Address{
+/*  class Address{
     constructor(house_no, area, city){
         this.house_no = house_no;
         this. area = area;
         this.city = city;
-    }
+    } 
 } */
+
 
 let customer = new Bank_Customer(101,'Abhishek', 24, new Address(5,'Munnekolala', 'Bangalore'), new Operation('Abhishek', 7000))
 /* console.log(customer) */
 /* console.log(customer) */
 /* console.log(customer.address.city) */
-console.log(customer.operation.amount)
+/* console.log(customer.operation.amount) */
+customer.get_Bal();

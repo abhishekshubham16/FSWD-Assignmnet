@@ -6,6 +6,6 @@ class Address{
     }
 }
 
-let address = new Address(5,'Munnekolala','Bangalore')
+
 
 module.exports = Address;
