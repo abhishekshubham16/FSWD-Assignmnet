@@ -11,7 +11,11 @@ class Bank_Customer extends Address{
         this.acc_Name= acc_Name;
         this.amount= amount;
     }
+    getName(){
+        console.log(this.address.location)
+    }
 }
 
 let b1 = new Bank_Customer(101,'Abhishek', 4000, {area: 'RJ Garden', location:'Bangalore'})
 console.log(b1.address.area)
+b1.getName()
