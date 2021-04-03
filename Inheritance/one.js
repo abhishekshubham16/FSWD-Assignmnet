@@ -17,5 +17,6 @@ class Bank_Customer extends Address{
 }
 
 let b1 = new Bank_Customer(101,'Abhishek', 4000, {area: 'RJ Garden', location:'Bangalore'})
-console.log(b1.address.area)
-b1.getName()
+/* console.log(b1.address.area)
+b1.getName() */
+console.log(b1);
