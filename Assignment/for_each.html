@@ -31,9 +31,8 @@
     </table>
     <script>
     buildTable(contact)
-        function buildTable(data){
+    function buildTable(data){
 		var table = document.getElementById('myTable')
-
         let row = data.forEach((contact)=>{
             return `<tr>
                 <td>${contact.name.title}</td>
@@ -42,12 +41,14 @@
         		<td>${contact.location.city}</td>
                 <td>${contact.email}</td>
                 <td>${contact.dob.age}</td>
-    	  </tr>`
+    	    </tr>`
+       
+            table.innerHTML += row   
         })
-			table.innerHTML += row
-
-
-		}
+        
+        
+        
+	}
 	
     </script>
     
